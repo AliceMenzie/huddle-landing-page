@@ -23,5 +23,17 @@ export const StyledCallToAction = styled.div`
   font-size: 18px;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    width: 90%; }
+    width: 90%;
+    
+    h3 {
+      font-size: 16px;
+    }
+
+    button {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      margin-left: 25px;
+    }
+    }
 `;

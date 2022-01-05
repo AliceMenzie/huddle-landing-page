@@ -21,9 +21,10 @@ export const Nav = styled.nav`
     /* flex-direction: column; */
 
     button {
-      width: 40%;
+      width: 30%;
       display: flex;
       justify-content: center;
+      font-size: 12px;
     }
   }
 `;
