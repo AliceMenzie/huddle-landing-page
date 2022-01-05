@@ -5,9 +5,6 @@ import { Button } from "./Button.styled";
 import { Flex } from "./styles/Flex.styled";
 
 export default function Header() {
-
-    
-
   return (
     <StyledHeader>
       <Container>
@@ -23,11 +20,13 @@ export default function Header() {
               but so does your audience. Create connections with your users as
               you engage in genuine discussion.
             </p>
-            <Button bg='#ff0099' color='white'>Get Started For Free</Button>
+            <Button bg="#ff0099" color="white">
+              Get Started For Free
+            </Button>
           </div>
-          <div>
-              <Image src='./images/illustration-mockups.svg' alt='webpage' />
-          </div>
+          
+            <Image src="./images/illustration-mockups.svg" alt="webpage" />
+          
         </Flex>
       </Container>
     </StyledHeader>

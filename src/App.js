@@ -10,6 +10,9 @@ function App() {
       body: "white",
       footer: "003333",
     },
+    mobile: "768px"
+
+    
   };
 
   return (
