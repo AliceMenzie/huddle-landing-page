@@ -5,6 +5,7 @@ import GlobalStyles from "./components/styles/Global";
 import content from "./content";
 import Card from "./Card";
 import Footer from "./components/Footer";
+import CallToAction from "./components/CallToAction";
 
 function App() {
   const theme = {
@@ -30,6 +31,7 @@ function App() {
               
           ))}
         </Container>
+        <CallToAction/>
         <Footer/>
       </>
     </ThemeProvider>
