@@ -14,5 +14,7 @@ export const Button = styled.button`
   &:hover {
     opacity: 0.9;
     transform: scale(0.98);
+    background-color: ${({ bgHover }) => bgHover || '#fff'};
+    color: ${({ color }) => color || 'hsl(200, 15%, 73%)'};
   }
 `

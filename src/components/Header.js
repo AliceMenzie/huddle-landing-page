@@ -20,7 +20,7 @@ export default function Header() {
               but so does your audience. Create connections with your users as
               you engage in genuine discussion.
             </p>
-            <Button bg="#ff0099" color="white">
+            <Button bg="hsl(322, 100%, 66%)" color="white" bgHover="hsla(322, 100%, 66%, .6)">
               Get Started For Free
             </Button>
           </div>

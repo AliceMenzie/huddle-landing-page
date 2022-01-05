@@ -18,6 +18,11 @@ li {
         margin-right: 10px;
         height: 40px;
         width: 40px;
+
+        &:hover {
+            color: hsl(322, 100%, 66%);
+            border: 1px solid hsl(322, 100%, 66%);
+        }
     }
 }
 
