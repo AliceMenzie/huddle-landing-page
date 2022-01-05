@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/huddle-landing-page/static/js/main.20dcabd9.js",
+    "static/js/787.c4ae0560.chunk.js": "/huddle-landing-page/static/js/787.c4ae0560.chunk.js",
+    "index.html": "/huddle-landing-page/index.html",
+    "main.20dcabd9.js.map": "/huddle-landing-page/static/js/main.20dcabd9.js.map",
+    "787.c4ae0560.chunk.js.map": "/huddle-landing-page/static/js/787.c4ae0560.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.20dcabd9.js"
+  ]
+}
