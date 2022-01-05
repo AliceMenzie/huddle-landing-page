@@ -10,6 +10,8 @@ export const Button = styled.button`
   padding: 15px 60px;
   background-color: ${({ bg }) => bg || '#fff'};
   color: ${({ color }) => color || '#333'};
+  white-space: nowrap;
+   
   
   &:hover {
     opacity: 0.9;
@@ -17,4 +19,11 @@ export const Button = styled.button`
     background-color: ${({ bgHover }) => bgHover || '#fff'};
     color: ${({ color }) => color || 'hsl(200, 15%, 73%)'};
   }
+
+  @media(max-width: ${({theme}) => theme.mobile}){
+  font-weight: 700;
+  padding: 15px 60px;
+ 
+  
+}
 `

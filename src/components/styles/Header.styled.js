@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
   background-color: ${({ theme }) => theme.colors.header};
   padding: 40px 0;
+
+  @media(max-width: ${({theme}) => theme.mobile}){
+    
+    text-align: center;}
+  
 `;
 
 export const Nav = styled.nav`
@@ -10,15 +15,17 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   margin-bottom: 40px;
+  
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 `;
 
 export const Logo = styled.img`
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    margin-bottom: 40px;
+    width: 7rem;
+    /* margin-bottom: 40px; */
   }
 `;
 
@@ -28,5 +35,6 @@ export const Image = styled.img`
 
   @media(max-width: ${({theme}) => theme.mobile}){
     margin: 40px 0 30px;
+    align-self: center;
 }
 `;

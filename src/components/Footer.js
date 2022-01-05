@@ -10,13 +10,13 @@ export default function Footer() {
         <img src="./images/logo_white.svg" alt="huddle" />
         <Flex>
           <ul>
-            <li> <span><img src="./images/icon-location.svg" alt="location"/></span>
+            <li> 
                 
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </li>
-            <li><span><img src="./images/icon-phone.svg" alt="" /></span>+1-543-123-4567</li>
-            <li> <span><img src="./images/icon-email.svg" alt="" /></span> example@huddle.com</li>
+            <li>+1-543-123-4567</li>
+            <li>  example@huddle.com</li>
           </ul>
           <ul>
             <li>About Us</li>

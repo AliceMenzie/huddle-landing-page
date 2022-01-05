@@ -4,6 +4,7 @@ import { StyledIcons } from './styles/SocialIcons'
 export default function SocialIcons() {
     return (
         <StyledIcons>
+          
       <li>
         <a href='https://twitter.com'>
           <FaTwitter />
@@ -19,6 +20,7 @@ export default function SocialIcons() {
           <FaLinkedin />
         </a>
       </li>
+      
     </StyledIcons>
     )
 }
