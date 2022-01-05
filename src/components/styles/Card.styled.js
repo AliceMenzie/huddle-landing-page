@@ -17,4 +17,9 @@ export const StyledCard = styled.div`
         flex: 1;
     }
 
+    @media(max-width: ${({theme}) => theme.mobile}){
+        flex-direction: column
+    }
+        
+
 `
