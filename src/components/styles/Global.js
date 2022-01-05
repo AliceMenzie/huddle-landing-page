@@ -19,6 +19,16 @@ const GlobalStyles = createGlobalStyle`
   img {
     max-width: 100%;
 }
+ 
+ h1 {
+   font-weight: 600;
+ }
+ h2 {
+   font-weight: 600;
+ }
+ h3 {
+   font-weight: 600;
+ }
 `
 
 export default GlobalStyles
