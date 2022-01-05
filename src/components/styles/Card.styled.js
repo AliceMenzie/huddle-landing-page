@@ -19,7 +19,9 @@ export const StyledCard = styled.div`
     }
 
     @media(max-width: ${({theme}) => theme.mobile}){
-        flex-direction: column
+        flex-direction: column-reverse;
+        text-align: center;
+        
     }
         
 
