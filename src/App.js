@@ -4,13 +4,14 @@ import Header from "./components/Header";
 import GlobalStyles from "./components/styles/Global";
 import content from "./content";
 import Card from "./Card";
+import Footer from "./components/Footer";
 
 function App() {
   const theme = {
     colors: {
       header: "#ebfbff",
       body: "white",
-      footer: "003333",
+      footer: "#003333",
     },
     mobile: "768px"
 
@@ -28,6 +29,7 @@ function App() {
               
           ))}
         </Container>
+        <Footer/>
       </>
     </ThemeProvider>
   );
