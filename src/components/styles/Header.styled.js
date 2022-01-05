@@ -19,6 +19,12 @@ export const Nav = styled.nav`
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     /* flex-direction: column; */
+
+    button {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+    }
   }
 `;
 
@@ -30,7 +36,7 @@ export const Logo = styled.img`
 `;
 
 export const Image = styled.img`
-  width: 375px;
+  width: 475px;
   margin-left: 40px;
 
   @media(max-width: ${({theme}) => theme.mobile}){
